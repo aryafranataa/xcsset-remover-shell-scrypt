@@ -96,7 +96,7 @@ IFS=$'\n\t'
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # XCSSET Remover v1.21.0
-# Apple Developer Academy @ UC Surabaya
+# by Franata Rizki Aryanto
 # ═══════════════════════════════════════════════════════════════════════════════
 #
 # MODE / CARA PAKAI
@@ -861,7 +861,7 @@ clear
 printf '\n'
 rule
 printf '  %sREMOVE XCSSET FROM MAC - VERSION %s%s\n' "$BLD" "$SCRIPT_VERSION" "$RST"
-printf '  Provided by Apple Developer Academy @ UC Surabaya\n'
+printf '  Provided by Franata Rizki Aryanto\n'
 rule
 printf '  Device  : %s\n' "$(hostname)"
 printf '  User    : %s\n' "${SUDO_USER:-$USER}"
