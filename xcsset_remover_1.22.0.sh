@@ -3,7 +3,7 @@ set -uo pipefail
 IFS=$'\n\t'
 # ═══════════════════════════════════════════════════════════
 # XCSSET Remover v1.22.0
-# Apple Developer Academy @ UC Surabaya
+# by Franata Rizki Aryanto
 #
 # Usage:
 #   sudo bash xcsset_remover_1.22.0.sh [OPTIONS]
@@ -704,7 +704,7 @@ clear
 printf '\n'
 rule
 printf '  %sREMOVE XCSSET FROM MAC - VERSION %s%s\n' "$BLD" "$SCRIPT_VERSION" "$RST"
-printf '  Provided by Apple Developer Academy @ UC Surabaya\n'
+printf '  Provided by Franata Rizki Aryanto\n'
 rule
 printf '  Device  : %s\n' "$(hostname)"
 printf '  User    : %s\n' "${SUDO_USER:-$USER}"
